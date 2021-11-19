@@ -5,7 +5,7 @@ int main() {
     int i = 0, j = 0;
     int size;
     printf("\nEnter string: ");
-    scanf("%s",&str1);
+    gets(str1);
     size=strlen(str1);
     for (i=0;i<size;i++) {
         str2[i]=str1[i];
